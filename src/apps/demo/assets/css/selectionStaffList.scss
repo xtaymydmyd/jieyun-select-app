@@ -1,0 +1,35 @@
+.selectionStaffList{
+    height:100%;
+    .vux-header{
+        background-color:auto;
+    }
+    .weui-cells{
+        margin-top:10px;
+    }
+    .list-wrap{
+        .list{
+            background:white;
+            padding: 10px 15px;
+            .left{
+                width:40px;
+                .icon{
+                    width:30px;
+                    height:30px;
+                }
+            }
+            .select-left{
+                width:40px;
+            }
+        }
+    }
+    .searchWrap{
+        position:relative;
+        height:44px;
+    }
+    .weui-search-bar__label{
+        top : 4px;
+    }
+    .selectionStaffContainer{
+        padding-bottom:10px;
+    }
+}

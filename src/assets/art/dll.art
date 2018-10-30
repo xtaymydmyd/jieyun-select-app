@@ -1,0 +1,4 @@
+    <script src=static/dll/vue.dll.js></script>
+    <script src=static/dll/others.dll.js></script>
+    <script src=static/dll/portal.dll.js></script>
+

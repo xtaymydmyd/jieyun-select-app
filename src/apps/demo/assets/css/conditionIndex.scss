@@ -1,0 +1,20 @@
+.conditionIndex{
+    height:100%;
+    .weui-cells{
+        margin-top:10px;
+    }
+    .list-wrap{
+        margin-top:10px;
+        .list{
+            background:white;
+            padding: 10px 15px;
+            .left{
+                width:40px;
+                .icon{
+                    width:30px;
+                    height:30px;
+                }
+            }
+        }
+    }
+}

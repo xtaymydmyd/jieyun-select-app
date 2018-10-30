@@ -1,0 +1,21 @@
+$empty_theme: #fafaf9;
+
+/*今天-应用*/
+
+.portalApps {
+    .img_div {
+        background: url("~portal/assets/img/portal/emptyApp.png") no-repeat;
+    }
+}
+
+
+/*今天 - 新闻*/
+
+.portalNewsContainer {
+    .swiperDictNameEmpty {
+        width: 50%;
+        background: $empty_theme;
+        height: 20px;
+        display: inline-block;
+    }
+}

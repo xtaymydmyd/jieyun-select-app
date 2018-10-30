@@ -1,0 +1,34 @@
+@import "~assets/css/public.scss";
+
+.selectionStaff{
+    height:100%;
+
+    .personWrap{
+        .headImg{
+            height:30px;
+        }
+        .name{
+            font-size: 12px;
+            margin-top: 4px;
+            width: 100%;
+            text-align:center;
+        }
+    }
+    .selection-staff-list{
+        background: #fafafa;
+        padding: 10px 0px 5px 10px;
+        .userWrap{
+            width:calc(100% - 60px);
+        }
+        .confirm{
+            width:60px;
+            position:relative;
+            color : $theme;
+            font-weight:bold;
+        }
+        .confirm:before{
+            content : '';
+        }
+    }
+    
+}

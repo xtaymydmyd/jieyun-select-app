@@ -1,0 +1,32 @@
+@import '~select/assets/css/public.scss';
+.conditionIndex{
+    height:100%;
+    .weui-cells{
+        margin-top:10px;
+    }
+    .list-wrap{
+        margin-top:0px;
+        .list{
+            background:white;
+            padding: 10px 15px;
+            .left{
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+                background: #eaeaea;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 40px;
+                margin-right: 10px;
+                color :$theme;
+            }
+        }
+    }
+    .searchWrap{
+        position:relative;
+        height:44px;
+    }
+    .weui-search-bar__label{
+        top : 2px;
+    }
+}

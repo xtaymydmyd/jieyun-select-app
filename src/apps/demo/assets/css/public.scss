@@ -1,0 +1,172 @@
+$theme : #990099;
+
+$backgroud_color:#f6f5fa;
+$font_color_currency: #333333;
+$font_color_blue: #389df7;
+$theme_blue: #299bf0;
+$font_size_middle:14px;
+$linkColor: #475669;
+$border_color_gray:#eaeaea;
+
+@import '~assets/css/1px.scss';
+html {
+    width: 100%;
+    height: 100%;
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+        width: 100%;
+        height: 100%;
+        -webkit-tap-highlight-color: transparent;
+        background-color: $backgroud_color;
+        font-size: $font_size_middle;
+        color: $font_color_currency;
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+        box-sizing: border-box;
+        margin:0px;
+    }
+    body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+    iframe {
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+        color: $linkColor;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    .weui-cell {
+        font-size: $font_size_middle;
+    }
+    .head_right_ico {
+        height: 18px;
+    }
+    p,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    .weui-search-bar__cancel-btn {
+        color: $font_color_blue;
+    }
+    .overflowYScroll {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        -moz-overflow-scrolling: touch;
+        -ms-overflow-scrolling: touch;
+    }
+    .scroller-content {
+        z-index: 10;
+    }
+    .text-ellipsis {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .weui-dialog__btn_primary {
+        color: $theme_blue;
+    }
+    .textLineClamb3 {
+        display: -webkit-box;
+        overflow: hidden;
+        white-space: normal!important;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .textLineClamb2 {
+        display: -webkit-box;
+        overflow: hidden;
+        white-space: normal!important;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .textLineClamb1 {
+        display: -webkit-box;
+        overflow: hidden;
+        white-space: normal!important;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .WeChat {
+        .vux-header {
+            .left-arrow {
+                display: none;
+            }
+            .vux-header-back {
+                display: none;
+            }
+        }
+        .nav-header {
+            display: none;
+        }
+        .nav-header+.XZ-content {
+            margin-top: 0px;
+        }
+        /*预约列表弹框*/
+        .nav-header~.selectConditionPop {
+            top: 38px !important;
+            left: calc(100% - 110px) !important;
+        }
+        .nav-header~.schoolMapWrap {
+            img {
+                height: 100% !important;
+            }
+        }
+        .nav-header~.addressBookSearch {
+            margin-top: 0px !important;
+        }
+        .nav-header~.addressBooksTypeSearch {
+            margin-top: 0px !important;
+        }
+        .nav-header~.addressBooksListSearch {
+            margin-top: 0px !important;
+        }
+        .nav-header~.employmentFairIframe {
+            top: 0px !important;
+        }
+        .nav-header~.employmentTeachinIframe {
+            top: 0px !important;
+        }
+        .nav-header~.employmentCampusIframe {
+            top: 0px !important;
+        }
+        .nav-header~.scheduleBusInfoIframe {
+            top: 0px !important;
+        }
+        .nav-header~.fullTimeJobInfoIframe {
+            top: 0px !important;
+        }
+        /*空教室*/
+        .nav-header+.selectWarp {
+            margin-top: 0px;
+        }
+        /*交流平台搜索*/
+        .nav-header+.searchTop {
+            .vux-search-fixed {
+                margin-top: 0px;
+            }
+        }
+    }
+    .inAppBrowserWrap {
+        background-color: rgba(0, 0, 0, 0.75);
+        color: rgba(235, 235, 235, 1.0);
+    }
+    .inAppBrowserWrap menu {
+        overflow: auto;
+        list-style-type: none;
+        padding-left: 0;
+    }
+}
